@@ -8,16 +8,21 @@ This is a demo application showing how to deploy a image classification model to
 Fetch code and model
 
 ```bash
-TODO for git clone stuff
+git clone https://github.com/fengwang/EfficientNetAndroid.git
+cd EfficientNetAndroid
+```
+
+Adjust flutter toolchain
+
+```bash
+flutter channel stable && flutter upgrade
 ```
 
 
-build for Android and Linux
+build for Android
 
 ```bash
 flutter build apk -v
-flutter build linux -v
-flutter build bundle -v
 ```
 
 ## Screenshot
