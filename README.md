@@ -1,4 +1,4 @@
-# Image Classification with flutter tflite
+# Image classification with flutter tflite
 
 This is a demo application showing how to deploy a image classification model to Android using [flutter-tflite](https://github.com/tensorflow/flutter-tflite).
 
@@ -19,7 +19,7 @@ flutter channel stable && flutter upgrade
 ```
 
 
-build for Android
+Build Android app
 
 ```bash
 flutter build apk -v
